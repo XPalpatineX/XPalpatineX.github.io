@@ -1,0 +1,179 @@
+html,body {
+	font-family: "Montserrat", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	transition: all 0.3s;
+}
+
+.wrapper {
+	max-width: 1400px;
+	display: block;
+	margin: 0 auto;
+}
+.header {
+	min-width: 1330px;
+	width: 100%;
+}
+.header__element {
+	display: inline-block;
+	vertical-align: middle;
+}
+.top {
+	width: 100%;
+	height: 90px;
+}
+.logo__img {
+	margin-top: 32px;
+	margin-bottom: 33px;
+	margin-left: 80px;
+}
+.menu__header {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-right: 211px;
+	margin-left: 180px;
+}
+.menu__item {
+	margin-right: 29px;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.menu__item-link {
+	text-decoration: none;
+	color: black;
+	opacity: 1;
+}
+.menu__item-link_hover:hover {
+	opacity: 0.2;
+}
+.menu__item:last-child {
+	margin-right: 0;
+}
+.cart__img {
+	margin-right: 8px;
+	width: 18px;
+	height: 17px;
+	cursor: pointer;
+}
+.cart__text {
+	margin: 0;
+}
+.cart__circle {
+	font-size: 11px;
+	margin-left: 7px;
+	border-radius: 12px;
+	background-color:  #e3e8f0;
+	width: 24px;
+	height: 24px;
+	text-align: center;
+	line-height: 2.2;
+}
+.sing-in {
+	margin-left: 29px;
+	
+}
+.sing-in__btn {
+	border-radius: 20px;
+	border-width: 1px;
+	border-color:  #e3e8f0;
+	border-style: solid;
+	padding: 12px 18px 11px 18px;
+	text-align: center;
+	font-size: 11px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.bottom {
+	border-top: 1px solid #f0f2f7;;  
+	width: 100%;
+	height: 56px;
+
+}
+.menu__item-second {
+	margin-right: 29px;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.menu__item-second:last-child {
+	float: right;
+}
+.menu__header-second {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 80px;
+	width: 990px;
+	margin-left: 115px;
+}
+
+.search {
+	border-left: 1px solid #f0f2f7 ;
+	border-right: 1px solid #f0f2f7;
+	height: 55px;
+}
+
+.search__input {
+  width: 202px;
+  height: 55px;
+  border: none;
+  padding: 0;
+  text-align: center;
+  background-image: url(../img/Search-Icon.png);
+  background-repeat: no-repeat;
+  background-position: 17px 21px;
+  transition: background 0.3s;
+}
+
+.search__input:focus {
+	background: none;
+}
+
+.search__input::-webkit-input-placeholder {
+	color:  #a1a8be;
+}
+
+.search__input::-moz-placeholder {
+	color:  #a1a8be;
+}
+
+.search__input:-ms-input-placeholder {
+	color:  #a1a8be;
+}
+.main {
+	min-width: 1330px;
+	width: 100%;
+}
+.main-content {
+	height: 500px;
+	background: url(../img/iphone_6_space_gray_v3_.jpg)no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+.main-item {
+	position: absolute;
+	max-width: 461px;
+	left: 212px;
+	top: 103px;
+	color: white;
+}
+.main-item__title {
+	font-family: Montserrat;
+	font-size: 42px;
+	font-weight: bolder;
+	margin-bottom: 34px;
+}
+.main-item__text {
+	margin-bottom: 64px;
+}
+.main-item-btn-link {
+	padding: 17px 52px 16px 52px;
+	background-color: #2754eb;
+	border-radius: 21px; 
+	text-decoration: none;
+	color: white; 
+}
