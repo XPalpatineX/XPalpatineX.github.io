@@ -1,0 +1,103 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+a,a:hover,a:focus {
+	text-decoration: none;
+	color:  rgba(0, 0, 0, 0.8);
+}
+.process__title-wrapper h1,.process__title-wrapper p {
+	margin: 0;
+	padding: 0;
+}
+.process__title-wrapper span {
+	color: black;
+}
+.process__title-wrapper h1 {
+	color:  #fc6744;
+	font-size: 50px;
+}
+.process__title-wrapper {
+	text-align: center;
+	margin-top: 86px;
+}
+.process__title-wrapper p {
+	opacity: .7;
+	font-size: 16px;
+}
+.process__content {
+	margin-top: 109px;
+	text-align: center;
+}
+.process_content-wrapper {
+	height: 263px;
+	color: white;
+	padding-top: 53px;
+}
+.process_content-wrapper p {
+	max-width: 167px;
+	margin: 0 auto;
+	font-size: 15px;
+}
+.process_content-wrapper h4 {
+	font-weight: 600;
+	font-size: 20px;
+	margin: 12px 0;
+}
+.process_content-wrapper .btn {
+
+	margin: 0 auto;
+
+}
+.process_content-wrapper .btn a {
+	font-size: 16px;
+	padding: 14px 0;
+	box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
+	margin-top: 35px;
+	width: 228px;
+	background-color: #fff;
+	border-radius: 25px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.process_content-wrapper .btn a:hover {
+	box-shadow: 0 12px 28px -3px rgba(0,0,0,0.5);
+	transition: all 0.3s;
+}
+.process_content-wrapper .btn a i {
+	margin-right: 17px;
+}
+.process_content-wrapper.first {
+	background-color: #4eb2f7;
+}
+.process_content-wrapper.second {
+	background-color: #c049f8;
+}
+.process_content-wrapper.third {
+	background-color: #817eff;
+}
+.process_content-wrapper.fours {
+	background-color: #f74770;
+}
+.fa.fa-cogs,.fa.fa-magnet,.fa.fa-bug,.fa.fa-camera-retro {
+	font-size: 50px;
+}
+.fa.fa-camera-retro {
+	transform: rotate(-18.453deg);
+}
+@media (max-width: 1200px) {
+	.process_content-wrapper .btn a {
+		font-size: 16px;
+    padding: 12px 0;
+    box-shadow: 3px 5px 14px 0px rgba(20, 20, 21, 0.09);
+    margin-top: 35px;
+    width: 190px;
+    background-color: #fff;
+    border-radius: 25px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;	
+	}
+}
