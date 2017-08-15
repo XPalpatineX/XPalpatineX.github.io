@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+}
+.good {
+	padding: 10px;
+	border-radius: 50px;
+	margin: 20px auto;
+	background-color: green;
+	width: 500px;
+	color : black;
+}
+.bad {
+	border-radius: 50px;
+	padding: 10px;
+	margin: 20px auto;
+	background-color: red;
+	width: 500px;
+	color: black;
+}
+.btnTran {
+	margin: 20px auto;
+	border: none;
+	padding: 10px;
+	background-color: #c2a572;
+	color: white;
+}
+.result {
+	border: 2px solid black;
+	margin: 20px auto;
+	text-align: center;
+	width: 500px;
+	color: black;
+}
