@@ -1,0 +1,429 @@
+/* Main Style for all tag's */
+ul {
+	margin: 0;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* END Main Style for all tag's */
+/* Header main style */
+section#main {
+	height: 100vh;
+	background: url(../img/i.jpg)no-repeat center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.me {
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   height: 100vh;
+   flex-direction: column;
+} 
+
+.me p,
+.me h2 {
+	color: #fff;
+}
+ 
+.me span {
+	color: green;
+	font-size: 3vh;
+	border-bottom: 1px solid;
+}
+
+.me p {
+	font-size: 2vh;
+	margin-bottom: 5px;
+}
+
+.me p:lastchild{
+	margin-bottom: 0px;
+}
+
+/* Navigation style */
+
+nav.navbar.navbar-default {
+    background-color: silver;
+    background-image: none;
+    border-radius: 0;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#menu-list li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+
+#menu-list li a:hover {
+	color: green;
+}
+/* End Navigation  style */
+/* /End Header Style */
+/* TOOLS STYLES */
+.tool-html {
+	margin-bottom: 10px;
+}
+.tool-ccs {
+	margin-bottom: 10px;
+}
+
+.service {
+	padding-top: 10px;
+}
+
+section#tools h2 {
+	padding: 10px 0;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+section#tools {
+	margin-bottom: 40px;
+}
+/* /END TOOLS STYLES */
+/* ABOUT STYLES */
+
+#pic {
+	height: 400px;
+	background: url(../img/my_photo3.jpg)no-repeat center center;
+	background-size: cover;
+}
+
+#about {
+	background-color: silver;
+}
+
+#pic {
+	padding-left: 0;
+}
+
+#describe h1 {
+	padding-top: 70px;
+	font-weight: initial;
+}
+
+hr {
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid #eee;
+    width: 270px;
+ }
+
+#describe p{
+	font-size:15px;
+	letter-spacing: 1px;
+	padding-bottom: 70px;
+}
+/* /END ABOUT STYLES */
+/* GALLERY */
+section#gallery {
+	background-color: silver;
+}
+
+.gallery-text h2 {
+	text-align: center;
+}
+
+.gallery-slider-item {
+	display: inline-block;
+	float: left;
+}
+
+.gallery-slider-text {
+	display: flex;
+	flex-direction: column;
+	height: 31vh;
+	justify-content: center;
+	align-items:center;
+}
+/* /End GALLERY */
+/* Contacts */
+#contacts {
+	padding-bottom: 4px;
+}
+
+.call_to_me {
+	margin: 30px 0;
+}
+
+.call_to_me a {
+	color: black;
+	text-decoration: none;
+}
+.fa-mobile:hover {
+	color: green;
+}
+
+.my_email {
+	padding-top: 10px;
+}
+
+.fa-envelope:hover {
+	color: green;
+}
+
+.fa-clock-o:hover {
+	color: green;
+}
+
+.call_to_me a:hover {
+	 text-decoration: none;
+}
+
+.inside_container {
+	margin: 0 15px;
+}
+
+.my_contacts { 
+	text-align: center;
+	padding-top: 30px;
+} 
+
+
+.my_contacts h2{ 
+	padding-bottom: 20px; 
+} 
+
+.submit_button { 
+	text-transform: uppercase; 
+	width: 200px; 
+	height: 60px; 
+	border: 2px solid; 
+	border-radius: 30px; 
+	background-color: #fff; 
+	border-color: black; 
+	color: black;
+} 
+
+.submit_button:hover { 
+	background-color: green; 
+	color: #fff; 
+} 
+
+button:active {
+	outline: none;
+}
+
+.form_group {
+	margin-bottom: 25px;
+}
+
+input {
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid #000;
+	width: 100%;
+	height: 30px;
+	opacity: 0.6;
+	font-size: 16px;
+}
+
+input:hover {
+	opacity: 1;
+}
+
+input:focus {
+	outline: none;
+	border-color: green;
+}
+
+select {
+	height: 50px;
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid #000;
+	opacity: 0.6;
+	font-size: 16px;
+}
+
+select:hover {
+	opacity: 1;
+}
+
+select:focus {
+	outline: none;
+	border-color: green;
+}
+
+textarea {
+	height: 120px;
+	width: 100%;
+	border: none;
+	background-color: transparent;
+	border-bottom: 2px solid #000;
+	opacity: 0.6;
+	font-size: 16px;
+}
+
+textarea:hover {
+	opacity: 1;
+}
+
+textarea:focus {
+	outline: none;
+	border-color: green;
+}
+
+
+/* /END CONTACTS */
+/* FOOTER */
+section#footer {
+	background-color: black;
+}
+
+section#footer p {
+	color: #fff;
+	padding-top: 1em;
+}
+
+section#footer a {
+	text-decoration: none;
+	color: green;
+}
+
+section#footer .row {
+	padding: 50px 0;
+}
+
+.vk_logo,
+.instagram_logo,
+.facebook_logo {
+	display: inline-block;
+	padding: 0.4em;
+}
+
+.social_network {
+
+	width: 100%;
+}
+/* /END FOOTER BLOCK */
+/*////////////// MEDIA /////////////// */
+@media (min-width: 0px) and (max-width: 479px) {
+	/*///////// Header //////////*/
+	
+	
+	/*///////// About ////////////*/
+
+	#describe h1 {
+    padding-top: 20px;
+	}
+	#describe p {
+	padding-bottom: 30px;
+	}
+	
+	/*///////// Porfolio //////////*/
+	.slick-prev {
+		display: none !important;
+	}
+
+	.slick-prev:before {
+		content: '' !important;
+	}
+	.slick-next {
+		display: none !important;
+	}
+
+	.slick-next:before {
+		content: '' !important;
+	}
+
+	/*//////////// Contacts /////////*/
+	.mobile, .mail {
+		padding-bottom: 10px;
+	}
+	.google_map {
+		padding-bottom: 20px;
+	}
+
+	.map {
+		height: 50vh !important;
+	}
+
+	/*///////////// Footer ///////////*/
+	section#footer .row {
+    padding: 30px 0;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+	.me p {
+    font-size: 4vh;
+    margin-bottom: 5px;
+	}
+
+	.me span {
+    color: green;
+    font-size: 6vh;
+    border-bottom: 1px solid;
+    }
+	/*///////// Porfolio //////////*/
+	.slick-next {
+		display: none !important;
+	}
+
+	.slick-next:before {
+		content: '' !important;
+	}
+	
+	.slick-prev {
+		display: none !important;
+	}
+
+	.slick-prev:before {
+		content: '' !important;
+	}
+	
+	/*///////// About ////////////*/
+
+	#describe h1 {
+    padding-top: 20px;
+	}
+	#describe p {
+	padding-bottom: 30px;
+	}
+
+	/*//////////// Contacts /////////*/
+	.mobile, .mail {
+		padding-bottom: 10px;
+	}
+	.google_map {
+		padding-bottom: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.slick-next {
+		display: none !important;
+	}
+
+	.slick-next:before {
+		content: '' !important;
+	}
+
+	.slick-prev {
+		display: none !important;
+	}
+
+	.slick-prev:before {
+		content: '' !important;
+	}
+}
