@@ -545,6 +545,10 @@ h5 {
       width: 4rem; }
       .login__block li + li {
         margin-left: 0.93rem; }
+  @-moz-document url-prefix() {
+    .header-help__help-buttons {
+      position: relative;
+      left: 5.6rem; } }
   .btn-big {
     width: 13.125rem; }
   .working-title h2 {
@@ -821,7 +825,7 @@ h5 {
   .logo object {
     width: 12.5rem; }
   .login {
-    padding-top: 0; }
+    padding-top: .3rem; }
     .login__block {
       display: block; }
       .login__block li {
@@ -832,3 +836,26 @@ h5 {
     margin: 0; }
   .working-title h2 {
     font-size: 2.6rem; } }
+
+@media all and (max-width: 480px) {
+  .login {
+    padding-top: .7rem; }
+    .login__block {
+      display: none; }
+  .hero-text h1 {
+    font-size: 2.8rem; }
+  .hero-text h2 {
+    font-size: 2.5rem; }
+  .working-title h2 {
+    font-size: 2.5rem; }
+  .our-clients__title {
+    line-height: 1; }
+  .strong-pages__title h2 {
+    font-size: 2.5rem; }
+  .know-more__title {
+    font-size: 1.8rem;
+    line-height: 1; }
+  .footer-list h4 {
+    font-size: 1rem; }
+  .footer-list li {
+    font-size: .8rem; } }
