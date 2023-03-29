@@ -79,7 +79,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(images/photo_2023-02-01_22-27-33.jpg);
+  background-image: url(images/1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -152,8 +152,11 @@ body {
   height: 240px;
   margin-bottom: 27px;
 }
-.pricing .group-1, .pricing .group-2 {
-  background-image: url(images/boat.jpg);
+.pricing .group-1 {
+  background-image: url(images/2.jpg);
+}
+.pricing .group-2 {
+  background-image: url(images/3.jpg);
 }
 .pricing-description .title {
   font-size: 20px;
@@ -192,8 +195,19 @@ body {
   align-items: center;
 }
 .paradise-item-img {
-  background-image: url(images/boat.jpg);
   height: 420px;
+}
+.paradise-item-img-1 {
+  background-image: url(images/boat.jpg);
+}
+.paradise-item-img-2 {
+  background-image: url(images/4.jpg);
+}
+.paradise-item-img-3 {
+  background-image: url(images/5.jpg);
+}
+.paradise-item-img-4 {
+  background-image: url(images/6.jpg);
 }
 .paradise-item-text {
   max-width: 500px;
@@ -259,7 +273,12 @@ body {
 .tour-includes .tab-image {
   width: 330px;
   height: 240px;
-  background-image: url(images/boat.jpg);
+}
+.tour-includes .tab-image-1 {
+  background-image: url(images/7.jpg);
+}
+.tour-includes .tab-image-2 {
+  background-image: url(images/8.jpg);
 }
 .tour-includes .left-data {
   padding-right: 20px;
@@ -306,16 +325,20 @@ body {
 .tour-image {
   width: 560px;
   height: 310px;
-  background-image: url(images/boat.jpg);
+  background-image: url(images/8.jpg);
 }
 
 .boat {
   display: flex;
 }
-.boat-image .image {
+.boat-image {
   width: 560px;
   height: 315px;
-  background-image: url(images/boat.jpg);
+}
+.boat-image .image {
+  height: 100%;
+  background-image: url(images/10.jpg);
+  background-position-y: 75%;
 }
 .boat .info-title {
   color: #0d46a0;
@@ -377,15 +400,45 @@ body {
   font-weight: 300;
 }
 .program .day-collage .collage-image-full {
-  background-image: url(images/boat.jpg);
   height: 100%;
   max-width: 460px;
 }
 .program .day-collage .collage-image-small {
-  background-image: url(images/boat.jpg);
   max-width: 460px;
   height: 100%;
   max-height: 400px;
+}
+.program .day-collage .c-9 {
+  background-image: url(images/19.jpg);
+}
+.program .day-collage .c-10 {
+  background-image: url(images/20.jpg);
+}
+.program .day-collage .c-11 {
+  background-image: url(images/22.jpg);
+}
+.program .day-collage .c-12 {
+  background-image: url(images/22.jpg);
+}
+.program .day-attention {
+  font-size: 18px;
+  line-height: 1.55;
+  color: #002071;
+  font-weight: 300;
+}
+.program .day-attention > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.program .day-attention > div :first-child {
+  margin-right: 10px;
+  font-size: 35px;
+  color: #0d46a0;
+  font-weight: 600;
+}
+.program .day-attention .icon {
+  font-size: 25px;
 }
 
 .collage {
@@ -398,12 +451,44 @@ body {
   height: 100%;
 }
 .collage-item .last {
-  width: 324px;
-  height: 200px;
-  position: absolute;
-  left: 25%;
-  bottom: -20px;
+  width: 100%;
+  height: 100%;
   background-image: url(images/boat.jpg);
+}
+.collage .c-1 {
+  background-image: url(images/12.jpg);
+}
+.collage .c-2 {
+  background-image: url(images/12.jpg);
+}
+.collage .c-3 {
+  background-image: url(images/13.jpg);
+}
+.collage .c-4 {
+  background-image: url(images/14.jpg);
+}
+.collage .c-5 {
+  background-image: url(images/15.jpg);
+}
+.collage .c-6 {
+  background-image: url(images/16.jpg);
+  background-position-y: 25%;
+}
+.collage .c-7 {
+  background-image: url(images/18.jpg);
+}
+.collage .c-8 {
+  background-image: url(images/18.jpg);
+}
+.collage .c-13 {
+  background-image: url(images/24.jpg);
+}
+.collage .c-14 {
+  background-image: url(images/24.jpg);
+}
+.collage .c-15 {
+  background-image: url(images/25.jpg);
+  background-position-y: 30%;
 }
 .collage .first {
   width: 100%;
@@ -411,16 +496,21 @@ body {
   padding-right: 10px;
 }
 .collage .first > div {
-  background-color: red;
   height: 80%;
 }
 .collage .second {
   width: 100%;
 }
 .collage .second > div {
-  background-color: blue;
   height: 50%;
   margin-top: 24%;
+}
+.collage .third {
+  width: 324px;
+  height: 200px;
+  position: absolute;
+  left: 25%;
+  bottom: -20px;
 }
 .collage .item {
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
@@ -431,6 +521,9 @@ body {
 .collage-two-items .last {
   right: 0;
   left: unset;
+}
+.collage-two-items .third {
+  left: 30%;
 }
 
 .accompaniment .title {
@@ -459,6 +552,25 @@ body {
 }
 .accompaniment .section-image .image-big {
   min-height: 500px;
+}
+.accompaniment .section-image .c-1 {
+  background-image: url(images/26.jpg);
+}
+.accompaniment .section-image .c-2 {
+  background-image: url(images/27.jpg);
+  background-position-y: 30%;
+}
+.accompaniment .section-image .c-3 {
+  background-image: url(images/30.jpg);
+}
+.accompaniment .section-image .c-4 {
+  background-image: url(images/30.jpg);
+}
+.accompaniment .section-image .c-5 {
+  background-image: url(images/30.jpg);
+}
+.accompaniment .section-image .c-6 {
+  background-image: url(images/30.jpg);
 }
 .accompaniment .section-info-text {
   font-size: 18px;
@@ -502,8 +614,8 @@ body {
 }
 .gallery .my-slider .slide img {
   max-height: 550px;
-  max-width: 860px;
-  width: 100%;
+  /* max-width: 860px;
+  width: 100%; */
 }
 
 .owl-dots {
@@ -620,7 +732,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(images/boat.jpg);
+  background-image: url(images/4.jpg);
 }
 .tour-approve .approve-title {
   text-align: center;
